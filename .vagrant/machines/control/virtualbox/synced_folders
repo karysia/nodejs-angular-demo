@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant":{"mount_options":["dmode=775,fmode=600","uid=1000","gid=1000","_netdev"],"guestpath":"/vagrant","hostpath":"C:/Users/benev/OneDrive/Documentos/kary/UPskill/DevOps/nodejs-angular-demo","disabled":false,"__vagrantfile":true}}}
