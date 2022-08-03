@@ -1,8 +1,10 @@
 FROM node:10
-WORKDIR /angular-app
-COPY . .
-RUN npm install @angular/cli && npm install
+WORKDIR /root/
+COPY ./my-app/dist ./my-app/dist
+COPY package*.json ./
+RUN npm install
+COPY server.js .
 
-EXPOSE 4200
+EXPOSE 3080
 
-CMD npm start
+CMD ["node", "server.js"]
